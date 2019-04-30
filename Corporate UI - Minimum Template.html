@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <noscript
+      ><meta
+        http-equiv="refresh"
+        content="0;url=https://static.scania.com/vendors/components/pure-js/nonJS-browsers/1.0.0/nonJS-browsers.html"
+    /></noscript>
+
+    <title>STOCK</title>
+    <script src="https://static.scania.com/vendors/components/pure-js/browser-reject/1.0.0/js/browser-reject.js"></script>
+
+    <script src="https://static.scania.com/vendors/frameworks/jQuery/2.2.2/jquery.min.js"></script>
+    <script src="https://static.scania.com/build/global/3.5.3/js/corporate-ui.js"></script>
+  </head>
+
+  <body class="scania">
+    <c-corporate-header site-name="STOCK" site-url="https://www.scania.com">
+    </c-corporate-header>
+
+    <c-main-content>
+      <c-main-navigation>
+        <primary-items>
+          <nav-item location="#">Home</nav-item>
+          <nav-item location="#"
+            >Véhicules Neufs
+            <sub-navigation caption="Applications">
+              <nav-item location="#">Bennes</nav-item>
+              <nav-item location="#">Malaxeurs</nav-item>
+              <nav-item location="#">Balayeuses</nav-item>
+              <nav-item location="#">B.O.M.</nav-item>
+              <nav-item location="#">Bras</nav-item>
+              <nav-item location="#">Grumiers</nav-item>
+              <nav-item location="#">Non Carrosés</nav-item>
+              <nav-item location="#">Autres</nav-item>
+            </sub-navigation>
+          </nav-item>
+          <nav-item location="#">Véhicules Occasion </nav-item>
+        </primary-items>
+      </c-main-navigation>
+      <section>
+        <div class="panel panel-primary panel-inverse">
+          <div class="panel-heading">
+            <h3 class="panel-title">Edit job</h3>
+            <span>Brödleverans, ICA Åtvidaberg</span>
+          </div>
+          <div class="panel-body">
+            <form id="form" action="" method="get">
+              <div class="row">
+                <div class="col-xs-12 col-md-12">
+                  <div class="form-group">
+                    <h4>Locations</h4>
+                  </div>
+                </div>
+              </div>
+              <fieldset>
+                <div class="form-group col-xs-12 col-md-6">
+                  <div class="form-group">
+                    <label class="control-label">Location 1</label>
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="Start from current position of truck"
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <div class="form-group">
+                    <label class="control-label interest-label">Time</label>
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="Start now"
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <div class="form-group">
+                    <label class="control-label nowrap"
+                      >Added time (min)*</label
+                    >
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="35"
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="col-xs-12 col-md-6">
+                  <div class="form-group">
+                    <label class="control-label">Location 2</label>
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="Search or click map"
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <div class="form-group">
+                    <label class="control-label interest-label">Time</label>
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="Arriving"
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <div class="form-group">
+                    <label class="control-label nowrap"
+                      >Time in advance (min)*</label
+                    >
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="30"
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-9">
+                  <div class="form-group">
+                    <label class="control-label">Notify on arrival </label>
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+                <div class="fcol-xs-12 col-md-3">
+                  <div class="form-group">
+                    <label class="control-label nowrap"
+                      >Time in advance (min)</label
+                    >
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="30"
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-9">
+                  <div class="form-group">
+                    <label class="control-label nowrap"
+                      >Notify expected delays</label
+                    >
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <div class="form-group">
+                    <label class="control-label nowrap"
+                      >Longer than (min)</label
+                    >
+                    <input
+                      type="text"
+                      value=""
+                      class="form-control"
+                      placeholder="60"
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <span>+ Add location</span>
+                </div>
+              </div>
+              <div class="col-md-6 text-right">
+                <div class="form-group">
+                  <span>+ Added time for loading, unloading, break etc</span>
+                </div>
+              </div>
+              <div class="col-md-12 text-right">
+                <div class="form-group">
+                  <button class="btn btn-success" type="reset">
+                    Save changes
+                  </button>
+                  <button class="btn btn-default" type="submit">Cancel</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </c-main-content>
+    <c-corporate-footer></c-corporate-footer>
+  </body>
+</html>
